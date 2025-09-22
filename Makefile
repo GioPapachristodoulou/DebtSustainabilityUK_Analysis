@@ -1,4 +1,5 @@
 SHELL := /bin/bash
+export PYTHONPATH := $(PWD)
 
 .PHONY: setup ingest validate clean
 
