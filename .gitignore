@@ -5,3 +5,7 @@ data/interim/
 data/processed/
 docs/provenance/*.log
 .env
+.ipynb_checkpoints/
+data/interim/
+data/processed/
+docs/provenance/*.log
