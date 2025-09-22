@@ -1,0 +1,11 @@
+datasets:
+  - id: OBR.PSF.Balances
+    required_columns: [date, primary_balance_gdp, headline_balance_gdp]
+    types:
+      date: datetime64[ns]
+      primary_balance_gdp: float64
+      headline_balance_gdp: float64
+    constraints:
+      primary_balance_gdp: {min: -50, max: 50}
+      headline_balance_gdp: {min: -50, max: 50}
+    uniqueness: [date]

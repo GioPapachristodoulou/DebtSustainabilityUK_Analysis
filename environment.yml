@@ -1,0 +1,24 @@
+name: dsa-uk
+channels: [conda-forge, defaults]
+dependencies:
+  - python=3.11
+  - pandas
+  - pyarrow
+  - openpyxl
+  - xlrd
+  - pyxlsb
+  - pdfplumber
+  - camelot-py
+  - ghostscript
+  - tabula-py
+  - numpy
+  - pyyaml
+  - rich
+  - pytest
+  - pandera
+  - python-dateutil
+  - click
+  - tqdm
+  - pip
+  - pip:
+      - loguru
